@@ -102,21 +102,3 @@ const DECIMALS = 18;
     console.log('Orders', orders);
 
 })();
-
-
-
-
-// Running migration: 1_initial_migration.js
-//   Deploying Migrations...
-//   ... 0x90b77b04b3391b394b957b8101fe274a2c959b18de4cebd1c1eab0bffd9f7c20
-//   Migrations: 0x621b3a70b1924ef1ddb583abe90521522a3c3a8b
-// Saving successful migration to network...
-//   ... 0xf30407c7d5f1dd53102dc52914d10590aa53c9866a41debe7ce51476041406c6
-// Saving artifacts...
-// Running migration: 2_deploy_contracts.js
-//   Deploying MyToken...
-//   ... 0x5b33eec0edb08052579c85a15a8dd476bcd0a6fcf0066102a13de82f6b7c1287
-//   MyToken: 0x8343df940607a27e6c07cb7df730a9ed5f10c08a
-// Saving successful migration to network...
-//   ... 0x597f689718d6690953d1f18521d6e1f353e909ada464349ef8c1ab1092a51491
-// Saving artifacts...
