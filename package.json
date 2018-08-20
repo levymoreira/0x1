@@ -4,13 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/.bin/babel index.js --out-dir build && node ./build/index.js",
+    "ganache": "ganache-cli --networkId 50 -p 8545 --db ./0x_testrpc_snapshot -m \"${npm_package_config_mnemonic}\"",
+    "download_snapshot": "cross-env download --extract --strip 1 --out 0x_testrpc_snapshot ${npm_package_config_snapshot_url}"
   },
   "author": "",
   "license": "ISC",
+  "config": {
+    "mnemonic": "concert load couple harbor equip island argue ramp clarify fence smart topic",
+    "snapshot_url": "https://s3.amazonaws.com/testrpc-shapshots/07d00cc515e0f9825b81595386b358593b7a3d6f.zip"
+  },
   "dependencies": {
-    "0x.js": "^0.38.6"
+    "0x.js": "^0.38.6",
+    "@0xproject/subproviders": "^1.0.5",
+    "@0xproject/web3-wrapper": "^1.2.0",
+    "web3": "^1.0.0-beta.35",
+    "web3-provider-engine": "^14.0.6"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "download-cli": "^1.0.5",
+    "cross-env": "^5.1.4"
   }
 }
