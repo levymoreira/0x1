@@ -23,11 +23,11 @@ Instal Mist and run
 ```
 
 ### Links
-https://0xproject.com/wiki#Ganache-Setup-Guide
-https://0xproject.com/docs/0x.js#zeroEx
-https://github.com/0xProject/0x-starter-project/
-https://weth.io/
-https://0xproject.com/wiki#Create,-Validate,-Fill-Order
-https://tokenallowance.io/
-https://app.radarrelay.com/ZRX/WETH
-https://0xproject.com/portal
+https://0xproject.com/wiki#Ganache-Setup-Guide  
+https://0xproject.com/docs/0x.js#zeroEx  
+https://github.com/0xProject/0x-starter-project/  
+https://weth.io/  
+https://0xproject.com/wiki#Create,-Validate,-Fill-Order  
+https://tokenallowance.io/  
+https://app.radarrelay.com/ZRX/WETH  
+https://0xproject.com/portal  
